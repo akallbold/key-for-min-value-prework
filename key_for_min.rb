@@ -7,7 +7,7 @@ output=10000
   name_hash.each do |key, value|
     if compare>name_hash[key]
     compare=name_hash[key]
-    output=name_hash[key]
+    output=key
     end
   end
   output
