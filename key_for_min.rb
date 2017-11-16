@@ -11,7 +11,7 @@ output=10000
       output=key
       end
     end
-  else puts nil
-  end  
+  else return nil
+  end
   output
 end
