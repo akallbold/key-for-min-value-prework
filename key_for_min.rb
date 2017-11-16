@@ -8,7 +8,7 @@ output=name_hash[key][0]
     if compare>name_hash[key]
     compare=name_hash[key]
     output=name_hash[key][0]
-    end 
+    end
   end
   output
-end  
+end
