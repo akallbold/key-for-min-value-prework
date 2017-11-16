@@ -4,11 +4,14 @@
 def key_for_min_value(name_hash)
 compare=10000
 output=10000
-  name_hash.each do |key, value|
-    if compare>name_hash[key]
-    compare=name_hash[key]
-    output=key
+  if name_hash
+    name_hash.each do |key, value|
+      if compare>name_hash[key]
+      compare=name_hash[key]
+      output=key
+      end
     end
-  end
+  else puts nil
+  end  
   output
 end
